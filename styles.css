@@ -732,3 +732,121 @@ input::placeholder{
     min-height: 100vh;
     margin-left: 200px;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    header img {
+        width: 40px;
+        height: 40px;
+    }
+    header nav ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul li {
+        margin: 0;
+        padding: 10px 0;
+    }
+    header button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    main {
+        height: auto;
+        padding: 20px;
+    }
+    main img {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+    .second {
+        left: 0;
+        top: auto;
+        padding: 20px;
+    }
+    .second h1 {
+        font-size: 40px;
+    }
+    .second p {
+        font-size: 16px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+    .container h2 {
+        font-size: 30px;
+    }
+    .container h3 {
+        font-size: 20px;
+    }
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .review {
+        flex-direction: column;
+        align-items: center;
+    }
+    .all {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1, .card2, .card3 {
+        width: 90%;
+    }
+
+    .books {
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 20px;
+    }
+    .item {
+        width: 100%;
+    }
+
+    .final {
+        flex-direction: column;
+        align-items: center;
+    }
+    .final img {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .contact {
+        padding: 20px;
+    }
+    .half input {
+        width: 90%;
+        height: 40px;
+    }
+    .half input:nth-of-type(5) {
+        height: auto;
+    }
+    .sec-form input {
+        width: 90%;
+        height: auto;
+    }
+}
